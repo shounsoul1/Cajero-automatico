@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-image: url("img/fondoo.webp");
+    background-size: cover;
+}
+.boton{
+    display: flex;
+    justify-content: end;
+}

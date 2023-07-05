@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Cajero automatico</title>
+</head>
+<body> 
+    <section id="section">
+        <div class="input">
+            <h1 id="saludo" class="position-absolute bottom-50 start-50 translate-middle mb-5 font-monospace text-black"></h1>
+            <select id="persona" class="form-select mb-2 mt-3 bg-black text-info" >
+                <option selected value="0">Elija una cuenta</option>
+                <option class="text-danger-emphasis" value="1">Natalia</option>
+                <option class="text-success-emphasis" value="2">Carlos</option>
+                <option class="text-warning-emphasis" value="3">Joaquin</option>
+            </select> 
+            <form class="formulario" action="">
+                <label class="ps-2 form-label text-black fs-5" for="password">Introduzca su clave</label>
+                <input class="form-control bg-black text-light" id="password" type="password" >
+                <div class="boton"><button class="btn btn-primary  w-50" type="button">Acceder</button></div>
+            </form>
+        </div>
+    </section>
+    <section>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
