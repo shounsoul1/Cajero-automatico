@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
 }
-
-#section{
+/* Login de inicio */
+#login{
     height: 100vh;
     display: flex;
     align-items: center;
@@ -14,4 +14,21 @@
 .boton{
     display: flex;
     justify-content: end;
+}
+
+#interfaz{
+    display: block;
+    height: 100%;
+}
+#contenedor_interfaz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+#contenedor_interfaz-retirar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
 }
