@@ -16,8 +16,8 @@
     justify-content: end;
 }
 
-#interfaz{
-    display: block;
+#interfaz-content{
+    display: none;
     height: 100%;
 }
 #contenedor_interfaz{
@@ -26,9 +26,41 @@
     justify-content: center;
     height: 100vh; 
 }
+
+#interfaz-consultar{
+    display: none;
+    height: 100%;
+}
+#contenedor_interfaz-consultar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+#interfaz-ingresar{
+    display: none;
+    height: 100%;
+}
+#contenedor_interfaz-ingresar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+#interfaz-retirar{
+    display: none;
+    height: 100%;
+}
 #contenedor_interfaz-retirar{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh; 
+}
+.error{
+    color: #f02849;
+    font-size: 13px;
+    text-align: center;
 }

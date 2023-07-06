@@ -30,13 +30,17 @@ function validarClave(){
 
     if (usuarioValido){
         document.querySelector(".input").style.display = "none"
-        document.querySelector("#interfaz").style.display = "block";
+        document.querySelector("#interfaz-content").style.display = "block";
     } else if (document.getElementById("clave").value  == "") {
         alert("Introduce una clave")
     }
         else{
-        document.getElementById("clave").value = "";
-        alert("Clave incorrecta");
+        document.getElementById("error").innerHTML = "La clave introducida es incorrecta.";
+        document.getElementById("error").style.display = "block"
+        
+        setTimeout(function() {
+            document.getElementById("error").style.display = "none";
+        }, 3000);
     }
 }
 
