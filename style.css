@@ -3,7 +3,7 @@
     padding: 0;
 }
 /* Login de inicio */
-#login{
+#contenedor{
     height: 100vh;
     display: flex;
     align-items: center;
@@ -11,13 +11,16 @@
     background-image: url("img/fondoo.webp");
     background-size: cover;
 }
+.input{
+    display: block;
+}
 .boton{
     display: flex;
     justify-content: end;
 }
 
 #interfaz-content{
-    display: none;
+    display: none ;
     height: 100%;
 }
 #contenedor_interfaz{
@@ -27,7 +30,7 @@
     height: 100vh; 
 }
 
-#interfaz-consultar{
+#interfaz-consulta{
     display: none;
     height: 100%;
 }
@@ -38,7 +41,7 @@
     height: 100vh; 
 }
 
-#interfaz-ingresar{
+#interfaz-ingreso{
     display: none;
     height: 100%;
 }
@@ -49,7 +52,7 @@
     height: 100vh; 
 }
 
-#interfaz-retirar{
+#interfaz-retiro{
     display: none;
     height: 100%;
 }
