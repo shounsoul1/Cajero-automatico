@@ -14,11 +14,31 @@
 .input{
     display: block;
 }
+.img-container{
+    top: 0;
+    right: 0;
+}
+.text {
+    position: absolute;
+    right: 2.5%;
+    top: 9%;
+    transform: rotate(-2.8deg);
+    z-index: 1;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+.img{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 0%;
+    right: 2%;
+}
 .boton{
     display: flex;
     justify-content: end;
 }
-
+/* contenido */
 #interfaz-content{
     display: none ;
     height: 100%;
@@ -29,7 +49,7 @@
     justify-content: center;
     height: 100vh; 
 }
-
+/* boton consulta */
 #interfaz-consulta{
     display: none;
     height: 100%;
@@ -41,6 +61,7 @@
     height: 100vh; 
 }
 
+/* boton ingreso */
 #interfaz-ingreso{
     display: none;
     height: 100%;
@@ -51,7 +72,7 @@
     justify-content: center;
     height: 100vh; 
 }
-
+/* boton retiro */
 #interfaz-retiro{
     display: none;
     height: 100%;
@@ -62,8 +83,10 @@
     justify-content: center;
     height: 100vh; 
 }
+/* mensaje de error validar clave */
 .error{
     color: #f02849;
     font-size: 13px;
     text-align: center;
 }
+
