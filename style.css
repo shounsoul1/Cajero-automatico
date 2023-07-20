@@ -20,8 +20,8 @@
 }
 .text {
     position: absolute;
-    right: 2.5%;
-    top: 9%;
+    right: 3.2%;
+    top: 6%;
     transform: rotate(-2.8deg);
     z-index: 1;
     font-family: 'Courier New', Courier, monospace;
@@ -29,7 +29,7 @@
 }
 .img{
     width: 220px;
-    height: 220px;
+    height: 240px;
     position: absolute;
     top: 0%;
     right: 2%;
